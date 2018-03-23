@@ -60,9 +60,9 @@ var db_user = (process.env.mongodb_user  ) ;
 var db_pwd  = (process.env.mongodb_pwd ) ;
 var db_name = (process.env.mongodb_name || "test" ) ;
 
-console.log(db_user);
+/*console.log(db_user);
 console.log(db_pwd);   
-console.log(db_host);   
+console.log(db_host);  */ 
 
 var db = new DB(db_name,
                 new DB_Server( db_host, db_port,
